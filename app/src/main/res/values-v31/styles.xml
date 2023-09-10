@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App" parent="Base.Theme.App">
+        <item name="android:background">@android:color/system_neutral1_900</item>
+    </style>
+
+    <style name="Theme.App.Light" parent="Base.Theme.App.Light">
+        <item name="android:background">@android:color/system_neutral1_10</item>
+    </style>
+
+</resources>

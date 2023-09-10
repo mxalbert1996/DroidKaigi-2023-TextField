@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.App" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Base.Theme.App.Light" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.App" parent="Base.Theme.App">
+        <item name="android:background">#FFFBFE</item>
+    </style>
+
+    <style name="Theme.App.Light" parent="Base.Theme.App.Light">
+        <item name="android:background">#1C1B1F</item>
+    </style>
+
+    <style name="Theme.App.DayNight" parent="Theme.App.Light" />
+
+</resources>
